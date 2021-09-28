@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { HomeComponent } from './home/home.component';
-import { BlogEntryComponent } from './blog-entry/blog-entry.component';
+import { BlogEntryComponent } from './blogs/blog/blog-entry/blog-entry.component';
 import { SiteFooterComponent } from './site-footer/site-footer.component';
-import { BlogEntryImageComponent } from './blog-entry/blog-entry-image/blog-entry-image.component';
-import { BlogEntryHeaderComponent } from './blog-entry/blog-entry-header/blog-entry-header.component';
-import { BlogEntryContentComponent } from './blog-entry/blog-entry-content/blog-entry-content.component';
+import { BlogEntryImageComponent } from './blogs/blog/blog-entry/blog-entry-image/blog-entry-image.component';
+import { BlogEntryHeaderComponent } from './blogs/blog/blog-entry/blog-entry-header/blog-entry-header.component';
+import { BlogEntryContentComponent } from './blogs/blog/blog-entry/blog-entry-content/blog-entry-content.component';
+import { BlogComponent } from './blogs/blog/blog.component';
+import { BlogsComponent } from './blogs/blogs.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { BlogEntryContentComponent } from './blog-entry/blog-entry-content/blog-
     SiteFooterComponent,
     BlogEntryImageComponent,
     BlogEntryHeaderComponent,
-    BlogEntryContentComponent
+    BlogEntryContentComponent,
+    BlogComponent,
+    BlogsComponent
     
   ],
   imports: [
