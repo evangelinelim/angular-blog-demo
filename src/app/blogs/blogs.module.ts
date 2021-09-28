@@ -8,6 +8,10 @@ import { blogsRoutes } from '../Routing/blogs-routing.module';
 import { BlogsComponent } from './blogs.component';
 import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
+import { CategoryBadgesComponent } from '../Utilities/category-badges/category-badges.component';
+import { AboutSnippetComponent } from '../Utilities/about-snippet/about-snippet.component';
+import { BlogHeaderComponent } from './blog/blog-header/blog-header.component';
+import { BlogEntriesComponent } from './blog/blog-entries/blog-entries.component';
 
 
 @NgModule({
@@ -17,7 +21,11 @@ import { CommonModule } from '@angular/common';
     BlogEntryHeaderComponent,
     BlogEntryContentComponent,
     BlogComponent,
-    BlogsComponent    
+    BlogsComponent,
+    CategoryBadgesComponent,
+    AboutSnippetComponent,
+    BlogHeaderComponent,
+    BlogEntriesComponent   
   ],
   imports: [
     RouterModule.forChild(blogsRoutes),

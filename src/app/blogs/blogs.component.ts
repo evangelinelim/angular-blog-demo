@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BlogsComponent implements OnInit {
 
+  message: string = 'Totally up to you!!!!';
   constructor() { }
 
   ngOnInit(): void {
