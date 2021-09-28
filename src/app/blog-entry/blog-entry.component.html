@@ -1,34 +1,11 @@
-  <!-- Page content-->
-        <div class="container mt-5">
-            <div class="row">
-                <div class="col-lg-9">
-                    <article>
-                        <!-- Post header-->
-                        <header class="mb-4">
-                            <!-- Post title-->
-                            <h1 class="fw-bolder mb-1">{{entry.title}}</h1>
-                            <!-- Post meta content-->
-                            <div class="text-muted fst-italic mb-2">Posted on {{entry.date}} by {{entry.author}}</div>
-                            <!-- Post categories-->
-                            <span *ngFor="let category of entry.categories">
-                                <a class="badge bg-secondary text-decoration-none link-light" href="#!">{{category}}</a>
-                            </span>                            
-                        </header>
-                        <!-- Preview image figure-->
-                        <figure class="mb-4"><img class="img-fluid rounded" src="{{entry.image}}" alt="..."></figure>
-                        <!-- Post content-->
-                        <section class="mb-5" *ngFor="let content of entry.contents">
-                            <p *ngIf="content.contentType === 'paragragh'" class="fs-5 mb-4">{{content.content}}</p>
-                            <h2 *ngIf="content.contentType === 'heading'" class="fw-bolder mb-4 mt-5">{{content.content}}</h2>
-                        </section>
-                    </article>   
-                   
-                </div>
-            </div>
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-lg-9">
+            <article>
+                <blog-entry-header [header]="blogEntry.header"></blog-entry-header>
+                <blog-entry-image [image]="blogEntry.image"></blog-entry-image>
+                <blog-entry-content [contents]="blogEntry.contents"></blog-entry-content>                        
+            </article>                      
         </div>
-        
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    
+    </div>
+</div>

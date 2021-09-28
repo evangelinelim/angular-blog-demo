@@ -7,6 +7,9 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
 import { HomeComponent } from './home/home.component';
 import { BlogEntryComponent } from './blog-entry/blog-entry.component';
 import { SiteFooterComponent } from './site-footer/site-footer.component';
+import { BlogEntryImageComponent } from './blog-entry/blog-entry-image/blog-entry-image.component';
+import { BlogEntryHeaderComponent } from './blog-entry/blog-entry-header/blog-entry-header.component';
+import { BlogEntryContentComponent } from './blog-entry/blog-entry-content/blog-entry-content.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { SiteFooterComponent } from './site-footer/site-footer.component';
     ToolbarComponent,
     HomeComponent,
     BlogEntryComponent,
-    SiteFooterComponent
+    SiteFooterComponent,
+    BlogEntryImageComponent,
+    BlogEntryHeaderComponent,
+    BlogEntryContentComponent
     
   ],
   imports: [
