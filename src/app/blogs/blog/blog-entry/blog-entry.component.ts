@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { BlogEntry } from '../../../models/blog-models/blog-entry.model';
+import { BlogEntry } from '../../models/blog-entry.model';
 
 @Component({
   templateUrl: './blog-entry.component.html'

@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { BlogEntryHeader } from 'src/app/models/blog-models/blog-entry-header.model';
+import { BlogEntryHeader } from 'src/app/blogs/models/blog-entry-header.model';
 
 @Component({
   selector: 'blog-entry-header',
