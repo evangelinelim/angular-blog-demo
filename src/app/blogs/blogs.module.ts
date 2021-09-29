@@ -4,12 +4,12 @@ import { BlogEntryHeaderComponent } from './blog/blog-entry/blog-entry-header/bl
 import { BlogEntryImageComponent } from './blog/blog-entry/blog-entry-image/blog-entry-image.component';
 import { BlogEntryComponent } from './blog/blog-entry/blog-entry.component';
 import { BlogComponent } from './blog/blog.component';
-import { blogsRoutes } from '../Routing/blogs-routing.module';
+import { blogsRoutes } from '../routing/blogs-routing.module';
 import { BlogsComponent } from './blogs.component';
 import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
-import { CategoryBadgesComponent } from '../Utilities/category-badges/category-badges.component';
-import { AboutSnippetComponent } from '../Utilities/about-snippet/about-snippet.component';
+import { CategoryBadgesComponent } from '../site-utilities/category-badges/category-badges.component';
+import { AboutSnippetComponent } from '../site-utilities/about-snippet/about-snippet.component';
 import { BlogHeaderComponent } from './blog/blog-header/blog-header.component';
 import { BlogEntriesComponent } from './blog/blog-entries/blog-entries.component';
 

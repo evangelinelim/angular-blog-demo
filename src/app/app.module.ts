@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { MainRoutes } from './Routing/app-routing.module';
+import { MainRoutes } from './routing/app-routing.module';
 import { AppComponent } from './app.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { HomeComponent } from './home/home.component';
@@ -13,7 +13,7 @@ import { RouterModule } from '@angular/router';
     AppComponent,
     ToolbarComponent,
     HomeComponent,
-    SiteFooterComponent    
+    SiteFooterComponent
   ],
   imports: [
     BrowserModule,
