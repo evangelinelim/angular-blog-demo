@@ -8,9 +8,10 @@ export class MyInterceptor implements HttpInterceptor {
   
   intercept(request: HttpRequest<any>, next: HttpHandler):  Observable<HttpEvent<any>> {
     request = request.clone({
-      setHeaders: {
-        'securitykey': 'key123'
-      }
+      // todo add headers as needed
+      // setHeaders: {
+      //   'securitykey': 'key123'
+      // }
     });
     return next.handle(request);
   }
