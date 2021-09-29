@@ -6,7 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-title = 'demo';
+  title = 'Thoughts and Giggles';
+  slides = [
+    {image: 'assets/images/norris1.jfif', text:'Norris'},
+    {image: 'assets/images/norris2.jfif', text:'Norris'},
+    {image: 'assets/images/norris3.jfif', text:'Norris'},
+  ]
   constructor() { }
 
   ngOnInit(): void {
