@@ -1,0 +1,8 @@
+<header class="mb-4">
+    <!-- Post title-->
+    <h1 class="fw-bolder mb-1">{{header.title}}</h1>
+    <!-- Post meta content-->
+    <div class="text-muted fst-italic mb-2">Posted on {{header.date}} by {{header.author}}</div>
+    <!-- Post categories-->
+    <category-badges [categories]="header.categories"></category-badges>                       
+</header>

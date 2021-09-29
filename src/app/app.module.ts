@@ -1,26 +1,23 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
+import { MainRoutes } from './routing/app-routing.module';
 import { AppComponent } from './app.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { HomeComponent } from './home/home.component';
-import { BlogEntryComponent } from './blog-entry/blog-entry.component';
 import { SiteFooterComponent } from './site-footer/site-footer.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
     AppComponent,
     ToolbarComponent,
     HomeComponent,
-    BlogEntryComponent,
     SiteFooterComponent
-    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    
+    RouterModule.forRoot(MainRoutes),
   ],
   providers: [],
   bootstrap: [AppComponent]
