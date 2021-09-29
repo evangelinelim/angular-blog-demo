@@ -12,6 +12,7 @@ import { CategoryBadgesComponent } from '../site-utilities/category-badges/categ
 import { AboutSnippetComponent } from '../site-utilities/about-snippet/about-snippet.component';
 import { BlogHeaderComponent } from './blog/blog-header/blog-header.component';
 import { BlogEntriesComponent } from './blog/blog-entries/blog-entries.component';
+import { NewEntryComponent } from './blog/new-entry/new-entry.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { BlogEntriesComponent } from './blog/blog-entries/blog-entries.component
     CategoryBadgesComponent,
     AboutSnippetComponent,
     BlogHeaderComponent,
-    BlogEntriesComponent   
+    BlogEntriesComponent,
+    NewEntryComponent   
   ],
   imports: [
     CommonModule,
