@@ -1,4 +1,5 @@
 <section class="mb-5" *ngFor="let content of contents">
-    <p *ngIf="content.contentType === 'paragragh'" class="fs-5 mb-4">{{content.content}}</p>
+    <!-- todo use enum for content type -->
+    <p *ngIf="content.contentType === 'paragraph'" class="fs-5 mb-4">{{content.content}}</p>
     <h2 *ngIf="content.contentType === 'heading'" class="fw-bolder mb-4 mt-5">{{content.content}}</h2>
 </section>
