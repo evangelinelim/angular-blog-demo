@@ -1,6 +1,6 @@
 import { HomeComponent } from '../home/home.component';
 
-export const MainRoutes  = [
+export const mainRoutes  = [
   { path: '', component: HomeComponent },
   { path: 'home', component: HomeComponent },
   { path: 'blogs', loadChildren: () => import('../blogs/blogs.module').then(m => m.BlogsModule) },

@@ -3,7 +3,7 @@
       <h2 class="blog-post-title">{{blogEntry.header.title}}</h2>
       <p class="blog-post-meta">{{blogEntry.header.date}}</p>
       <p>{{blogEntry.contents[0].content}}</p>
-      <a [routerLink]="['../blog-entry']" class="stretched-link">Continue reading</a>
+      <a routerLink="/blogs/blog-entry">Continue reading</a>
       <hr>
     </article>
   </div>

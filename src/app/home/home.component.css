@@ -1,0 +1,11 @@
+.carousel-custom{
+    padding-top: 4pt;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+}
+img{
+    object-fit: cover;
+    height: 500px;
+    width: 100%;
+}
