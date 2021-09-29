@@ -1,5 +1,5 @@
 export class BlogContent {
-  order: number = 1;
-  contentType: string = '';
-  content: string = '';
+  order: number;
+  contentType: string;
+  content: string;
 }
