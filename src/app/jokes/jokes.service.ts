@@ -10,7 +10,7 @@ import { Joke } from './models/joke.model';
 })
 export class JokesService {
   private jokesUrl = 'https://api.chucknorris.io/jokes/random';
-  //todo add call for https://api.chucknorris.io/jokes/categories
+  //TODO: add call for https://api.chucknorris.io/jokes/categories
   //and https://api.chucknorris.io/jokes/random?category={category}
   //and maybe? https://api.chucknorris.io/jokes/search?query={query}
 
