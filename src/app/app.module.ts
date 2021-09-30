@@ -8,8 +8,8 @@ import { SiteFooterComponent } from './site-footer/site-footer.component';
 import { RouterModule } from '@angular/router';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { MyInterceptor } from './site-utilities/utility.httpInterceptor';
-import { mainRoutes } from './Routing/app-routing.module';
-import { LoginComponent } from './account/login/login.component';
+import { mainRoutes } from './routing/app-routing.module';
+import { AccountModule } from './account/account.module';
 
 @NgModule({
   declarations: [
@@ -17,12 +17,12 @@ import { LoginComponent } from './account/login/login.component';
     ToolbarComponent,
     HomeComponent,
     SiteFooterComponent,
-    LoginComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot(mainRoutes),
     HttpClientModule,
+    AccountModule,
     CarouselModule.forRoot()
   ],
   providers: [{provide: HTTP_INTERCEPTORS, useClass: MyInterceptor, 

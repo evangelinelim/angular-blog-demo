@@ -1,19 +1,12 @@
 <div class="d-flex justify-content-center mt-5">
     <div class="col-3">
         
-        <form (ngSubmit)="onSubmit()">
+        <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
             <h1 class="h3 mb-3 text-center">Login</h1>
-            <div class="form-floating mb-3">
-                <div class="mb-2 d-flex justify-content-center">
-                    <input type="text" class="form-control" placeholder="Email">
-                    <label for="email"></label>
-                </div>
-                <div class="mb-2 d-flex justify-content-center">
-                    <input type="text" class="form-control" placeholder="Password">
-                    <label for="password"></label>
-                </div>
-            <button class="w-100 btn btn-primary" type="submit">Login</button>
-            </div>
+           <app-text-inputs formControlName="email" [label]="'Email Address'"></app-text-inputs>
+           <app-text-inputs formControlName="password" [label]="'Password'" [type]="'password'"></app-text-inputs>
+            
+            <button [disabled]="loginForm.invalid" class="w-100 btn btn-primary" type="submit">Login</button>
         </form>
         
     </div>
