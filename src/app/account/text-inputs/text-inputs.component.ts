@@ -7,9 +7,9 @@ import { ControlValueAccessor, NgControl } from '@angular/forms';
   styleUrls: ['./text-inputs.component.scss']
 })
 export class TextInputsComponent implements OnInit, ControlValueAccessor {
-  @ViewChild('input', { static: true }) input: ElementRef;
+  @ViewChild('input', { static: true }) input: ElementRef<HTMLInputElement> = {} as ElementRef;
   @Input() type = 'text';
-  @Input() label: string;
+  @Input() label: string = '';
   
   constructor(@Self() public controlDir: NgControl) {
     this.controlDir.valueAccessor = this;
@@ -17,15 +17,21 @@ export class TextInputsComponent implements OnInit, ControlValueAccessor {
   
   ngOnInit(): void {
     const control = this.controlDir.control;
-    const validators = control.validator ? [control.validator] : [];
-    const asyncValidators = control.asyncValidator ? [control.asyncValidator] : [];
-    
-    control.setValidators(validators);
-    control.setAsyncValidators(asyncValidators);
-    control.updateValueAndValidity();
+    const validators = control?.validator ? [control.validator] : [];
+    const asyncValidators = control?.asyncValidator ? [control.asyncValidator] : [];
+
+    if(control){
+      control.setValidators(validators);
+      control.setAsyncValidators(asyncValidators);
+      control.updateValueAndValidity();
+      if(control.errors) console.log('control', control.errors.pattern);
+    }    
   }
 
-  onChange(event) { }
+  onChange(event: Event) { 
+    const { target } = event
+    if (target) console.log('target', (target as HTMLInputElement).value);
+  }
   onTouched() { }
 
   writeValue(obj: any): void {

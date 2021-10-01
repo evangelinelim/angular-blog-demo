@@ -7,7 +7,7 @@ import { AbstractControl, FormControl, FormGroup, ValidationErrors, Validators }
   styleUrls: ['./signup.component.css']
 })
 export class SignupComponent implements OnInit {
-  signupForm: FormGroup;
+  signupForm: FormGroup = new FormGroup({});
   constructor() { }
 
   ngOnInit(): void {
@@ -20,7 +20,7 @@ createSignUpForm() {
       confirmPassword: new FormControl('', [Validators.required, this.matchValues('password')])
     })
 }
-  matchValues(matchTo: string): (AbstractControl) => ValidationErrors | null {
+  matchValues(matchTo: string): (AbstractControl : AbstractControl) => ValidationErrors | null {
     return (control: AbstractControl): ValidationErrors | null => {
       return !!control.parent &&
         !!control.parent.value &&

@@ -1,5 +1,5 @@
 <div class="form-floating mb-3">
-                <input (input)="onChange($event.target.value)" 
+                <input (input)="onChange($any($event).target.value)" 
                 [ngClass]="(controlDir && 
                 controlDir.control && 
                 controlDir.control.touched) ? !controlDir.control.valid ? 'is-invalid' : 'is-valid': null" 
