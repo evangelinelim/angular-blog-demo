@@ -6,7 +6,7 @@ import { JokeResponse } from './models/joke-response.model';
 import { Joke } from './models/joke.model';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'any'
 })
 export class JokesService {
   private jokesUrl = 'https://api.chucknorris.io/jokes/random';

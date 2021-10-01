@@ -32,10 +32,8 @@ createSignUpForm() {
         {
           let control1 = controls[key1 as keyof AbstractControl[]] as FormControl;
           let control2 = controls[key2 as keyof AbstractControl[]] as FormControl;
-          if(control1.value !== control2.value){
-
-            return { isMatching: false };
-        }        
+          if(control1.value !== control2.value)
+            return { isMatching: false };   
       } 
       return null;
     };

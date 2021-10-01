@@ -6,7 +6,7 @@ import { BlogEntryContent } from './models/blog-entry-content.model';
 import { BlogEntry } from './models/blog-entry.model';
 import { Blog } from './models/blog.model';
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'any'
 })
 export class BlogsService {
   private blogsUrl = 'http://localhost:3000/blog';
