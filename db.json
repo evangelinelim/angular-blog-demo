@@ -1,145 +1,157 @@
 {
-  "blogs": [
-    {
-      "id": 1      
-    }
-  ],
-  "blog": 
-    {
+  "blogs":[ 
+  {
     "id": 1,
     "title": "Cosmic Thoughts .... a Trip Through the Cosmos",
     "author": "John WordSmith",
     "dateCreated": "July 28, 2020",
     "categories": ["Science", "Earth", "World"],
     "aboutContent": "Customize this section to tell your visitors a little bit about your publication, writers, content, or something else entirely. Totally up to you.",
-    "summary": "Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe.",
-    "blogEntries": [
-      {
-        "id": 1,
-        "header":{
-          "id": 1,
-          "title": "Cosmic Thoughts 1",
-          "author": "John WordSmith",
-          "dateCreated": "March 11, 2021",
-          "categories": ["Science", "Earth"]
-        },
-        "contents": [
-          {
-            "id": 1,
-            "contentType": "paragraph",
-            "content": "Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe."
-          },
-          {
-            "id": 2,
-            "contentType": "paragraph",
-            "content": "The universe is large and old, and the ingredients for life as we know it are everywhere, so there\"s no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we\"ll see if we find that."
-          },
-          {
-            "id": 3,
-            "contentType": "paragraph",
-            "content": "If you get asteroids about a kilometer in size, those are large enough and carry enough energy into our system to disrupt transportation, communication, the food chains, and that can be a really bad day on Earth."
-          },
-          {
-            "id": 4,
-            "contentType": "heading",
-            "content": "I have odd cosmic thoughts every day"
-          },
-          {
-            "id": 5,
-            "contentType": "paragraph",
-            "content": "For me, the most fascinating interface is Twitter. I have odd cosmic thoughts every day and I realized I could hold them to myself or share them with people who might be interested."
-          },
-          {
-            "id": 6,
-            "contentType": "paragraph",
-            "content": "Venus has a runaway greenhouse effect. I kind of want to know what happened there because we\"re twirling knobs here on Earth without knowing the consequences of it. Mars once had running water. It\"s bone dry today. Something bad happened there as well."
-          }
-        ]
-      },
-      {
-        "id":2,
-        "header":{
-          "id": 2,
-          "title": "Cosmic Thoughts 2",
-          "author": "John WordSmith",
-          "dateCreated": "March 11, 2021",
-          "categories": ["Science", "Earth"]
-        },
-        "contents": [
-          {
-            "id": 1,
-            "contentType": "paragraph",
-            "content": "Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe."
-          },
-          {
-            "id": 2,
-            "contentType": "paragraph",
-            "content": "The universe is large and old, and the ingredients for life as we know it are everywhere, so there\"s no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we\"ll see if we find that."
-          },
-          {
-            "id": 3,
-            "contentType": "paragraph",
-            "content": "If you get asteroids about a kilometer in size, those are large enough and carry enough energy into our system to disrupt transportation, communication, the food chains, and that can be a really bad day on Earth."
-          },
-          {
-            "id": 4,
-            "contentType": "heading",
-            "content": "I have odd cosmic thoughts every day"
-          },
-          {
-            "id": 5,
-            "contentType": "paragraph",
-            "content": "For me, the most fascinating interface is Twitter. I have odd cosmic thoughts every day and I realized I could hold them to myself or share them with people who might be interested."
-          },
-          {
-            "id": 6,
-            "contentType": "paragraph",
-            "content": "Venus has a runaway greenhouse effect. I kind of want to know what happened there because we\"re twirling knobs here on Earth without knowing the consequences of it. Mars once had running water. It\"s bone dry today. Something bad happened there as well."
-          }
-        ]
-      },
-      {
-        "id":3,
-        "header":{
-          "id": 3,
-          "title": "Cosmic Thoughts 3",
-          "author": "John WordSmith",
-          "dateCreated": "March 11, 2021",
-          "categories": ["Science", "Earth"]
-        },
-        "contents": [
-          {
-            "id": 1,
-            "contentType": "paragraph",
-            "content": "Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe."
-          },
-          {
-            "id": 2,
-            "contentType": "paragraph",
-            "content": "The universe is large and old, and the ingredients for life as we know it are everywhere, so there\"s no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we\"ll see if we find that."
-          },
-          {
-            "id": 3,
-            "contentType": "paragraph",
-            "content": "If you get asteroids about a kilometer in size, those are large enough and carry enough energy into our system to disrupt transportation, communication, the food chains, and that can be a really bad day on Earth."
-          },
-          {
-            "id": 4,
-            "contentType": "heading",
-            "content": "I have odd cosmic thoughts every day"
-          },
-          {
-            "id": 5,
-            "contentType": "paragraph",
-            "content": "For me, the most fascinating interface is Twitter. I have odd cosmic thoughts every day and I realized I could hold them to myself or share them with people who might be interested."
-          },
-          {
-            "id": 6,
-            "contentType": "paragraph",
-            "content": "Venus has a runaway greenhouse effect. I kind of want to know what happened there because we\"re twirling knobs here on Earth without knowing the consequences of it. Mars once had running water. It\"s bone dry today. Something bad happened there as well."
-          }
-        ]
+    "summary": "Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe."
+  }],
+  "blogEntries": [
+    {
+      "id": 1,
+      "blogId": 1,
+      "header":{
+        "title": "Cosmic Thoughts 1",
+        "author": "John WordSmith",
+        "dateCreated": "March 11, 2021",
+        "categories": ["Science", "Earth"]
       }
-    ]
-  }
+    },
+    {
+      "id": 2,
+      "blogId": 1,
+      "header":{
+        "title": "Cosmic Thoughts 2",
+        "author": "John WordSmith",
+        "dateCreated": "April 11, 2021",
+        "categories": ["Science", "Earth"]
+      }
+    },
+    {
+      "id": 3,
+      "blogId": 1,
+      "header":{
+        "title": "Cosmic Thoughts 3",
+        "author": "John WordSmith",
+        "dateCreated": "May 11, 2021",
+        "categories": ["Science", "Earth"]
+      }
+    }
+  ],
+  "blogContents": [
+    {
+      "id": 1,
+      "blogEntryId": 1,
+      "blogId": 1,
+      "contents": [
+        {
+          "id": 1,
+          "contentType": "paragraph",
+          "content": "Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe."
+        },
+        {
+          "id": 2,
+          "contentType": "paragraph",
+          "content": "The universe is large and old, and the ingredients for life as we know it are everywhere, so there\"s no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we\"ll see if we find that."
+        },
+        {
+          "id": 3,
+          "contentType": "paragraph",
+          "content": "If you get asteroids about a kilometer in size, those are large enough and carry enough energy into our system to disrupt transportation, communication, the food chains, and that can be a really bad day on Earth."
+        },
+        {
+          "id": 4,
+          "contentType": "heading",
+          "content": "I have odd cosmic thoughts every day"
+        },
+        {
+          "id": 5,
+          "contentType": "paragraph",
+          "content": "For me, the most fascinating interface is Twitter. I have odd cosmic thoughts every day and I realized I could hold them to myself or share them with people who might be interested."
+        },
+        {
+          "id": 6,
+          "contentType": "paragraph",
+          "content": "Venus has a runaway greenhouse effect. I kind of want to know what happened there because we\"re twirling knobs here on Earth without knowing the consequences of it. Mars once had running water. It\"s bone dry today. Something bad happened there as well."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "blogEntryId": 2,
+      "blogId": 1,
+      "contents": [
+        {
+          "id": 1,
+          "contentType": "paragraph",
+          "content": "This is another blog entryScience is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe."
+        },
+        {
+          "id": 2,
+          "contentType": "paragraph",
+          "content": "The universe is large and old, and the ingredients for life as we know it are everywhere, so there\"s no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we\"ll see if we find that."
+        },
+        {
+          "id": 3,
+          "contentType": "paragraph",
+          "content": "If you get asteroids about a kilometer in size, those are large enough and carry enough energy into our system to disrupt transportation, communication, the food chains, and that can be a really bad day on Earth."
+        },
+        {
+          "id": 4,
+          "contentType": "heading",
+          "content": "I have odd cosmic thoughts every day"
+        },
+        {
+          "id": 5,
+          "contentType": "paragraph",
+          "content": "For me, the most fascinating interface is Twitter. I have odd cosmic thoughts every day and I realized I could hold them to myself or share them with people who might be interested."
+        },
+        {
+          "id": 6,
+          "contentType": "paragraph",
+          "content": "Venus has a runaway greenhouse effect. I kind of want to know what happened there because we\"re twirling knobs here on Earth without knowing the consequences of it. Mars once had running water. It\"s bone dry today. Something bad happened there as well."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "blogEntryId": 3,
+      "blogId": 1,
+      "contents": [
+        {
+          "id": 1,
+          "contentType": "paragraph",
+          "content": "This is yet another other :D blog entryScience is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe."
+        },
+        {
+          "id": 2,
+          "contentType": "paragraph",
+          "content": "The universe is large and old, and the ingredients for life as we know it are everywhere, so there\"s no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we\"ll see if we find that."
+        },
+        {
+          "id": 3,
+          "contentType": "paragraph",
+          "content": "If you get asteroids about a kilometer in size, those are large enough and carry enough energy into our system to disrupt transportation, communication, the food chains, and that can be a really bad day on Earth."
+        },
+        {
+          "id": 4,
+          "contentType": "heading",
+          "content": "I have odd cosmic thoughts every day"
+        },
+        {
+          "id": 5,
+          "contentType": "paragraph",
+          "content": "For me, the most fascinating interface is Twitter. I have odd cosmic thoughts every day and I realized I could hold them to myself or share them with people who might be interested."
+        },
+        {
+          "id": 6,
+          "contentType": "paragraph",
+          "content": "Venus has a runaway greenhouse effect. I kind of want to know what happened there because we\"re twirling knobs here on Earth without knowing the consequences of it. Mars once had running water. It\"s bone dry today. Something bad happened there as well."
+        }
+      ]
+    }
+  ]
 }
